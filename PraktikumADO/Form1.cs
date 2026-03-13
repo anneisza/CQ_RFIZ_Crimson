@@ -22,6 +22,11 @@ namespace PraktikumADO
             InitializeComponent();
         }
 
+        //Method kodeksi database
+        private void Koneksi()
+        {
+            
+        }
         private void label1_Click(object sender, EventArgs e)
         {
 
