@@ -122,6 +122,26 @@ namespace PraktikumADO
                 MessageBox.Show(ex.Message);
             }
         }
+
+        // Latihan 2 : Tombol Update SKS
+        private void btnUpdateSKS_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Koneksi();
+                conn.Open();
+                string query = "UPDATE MataKuliah SET SKS = 4 WHERE KodeMK = 'IF210101'";
+                cmd = new SqlCommand(query, conn);
+                int hasil = cmd.ExecuteNonQuery();
+                MessageBox.Show("Jumlah baris terpengaruh: " + hasil);
+                conn.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
         private void label1_Click(object sender, EventArgs e)
         {
 
