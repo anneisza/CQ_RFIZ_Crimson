@@ -22,10 +22,12 @@ namespace PraktikumADO
             InitializeComponent();
         }
 
-        //Method kodeksi database
+        //Method koneksi database
         private void Koneksi()
         {
-            
+            conn = new SqlConnection(
+                "Data Source=RIZA\\RIZAFI;Initial Catalog=PraktikumADO;Integrated Security=True"
+                );
         }
         private void label1_Click(object sender, EventArgs e)
         {
