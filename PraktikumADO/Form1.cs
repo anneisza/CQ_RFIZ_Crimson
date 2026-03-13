@@ -26,7 +26,7 @@ namespace PraktikumADO
         private void Koneksi()
         {
             conn = new SqlConnection(
-                "Data Source=RIZA\\RIZAFI;Initial Catalog=PraktikumADO;Integrated Security=True"
+                "Data Source=RIZA\\RIZAFI;Initial Catalog=DBAkademikADO;Integrated Security=True"
                 );
         }
 
@@ -104,11 +104,6 @@ namespace PraktikumADO
             }
         }
         private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
         {
 
         }
