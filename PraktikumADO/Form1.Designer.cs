@@ -113,6 +113,7 @@
             this.btnHitungDosen.TabIndex = 6;
             this.btnHitungDosen.Text = "Hitung Dosen";
             this.btnHitungDosen.UseVisualStyleBackColor = true;
+            this.btnHitungDosen.Click += new System.EventHandler(this.btnHitungDosen_Click);
             // 
             // btnUpdateSKS
             // 
@@ -123,6 +124,7 @@
             this.btnUpdateSKS.TabIndex = 7;
             this.btnUpdateSKS.Text = "Update SKS";
             this.btnUpdateSKS.UseVisualStyleBackColor = true;
+            this.btnUpdateSKS.Click += new System.EventHandler(this.btnUpdateSKS_Click);
             // 
             // btnTambahProdi
             // 
@@ -133,6 +135,7 @@
             this.btnTambahProdi.TabIndex = 8;
             this.btnTambahProdi.Text = "Tambah Prodi";
             this.btnTambahProdi.UseVisualStyleBackColor = true;
+            this.btnTambahProdi.Click += new System.EventHandler(this.btnTambahProdi_Click);
             // 
             // Form1
             // 
