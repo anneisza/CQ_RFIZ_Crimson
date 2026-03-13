@@ -30,7 +30,7 @@ namespace PraktikumADO
                 );
         }
 
-        //Tombol koneksi
+        //Praktikum 1 : Tombol koneksi
         private void btnConnect_Click(object sender, EventArgs e)
         {
             try
@@ -47,6 +47,13 @@ namespace PraktikumADO
                 MessageBox.Show(ex.Message);
             }
         }
+
+        //Praktikum 2 : Tombol Hitung Mahasiswa
+        private void btnHitungMhs_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void label1_Click(object sender, EventArgs e)
         {
 
